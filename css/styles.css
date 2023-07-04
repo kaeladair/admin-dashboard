@@ -10,9 +10,8 @@
 }
 
 .sidebar {
-    background-color: black;
+    background-color: #020617;
     height: 100vh;
-    
 }
 
 #title {
@@ -23,17 +22,19 @@
 }
 
 .header {
-    background-color: gray;
+    background-color: #cbd5e1;
 }
 
 .content {
     display: grid;
     grid-template-rows: 15% 85%;
+    height: 100vh;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 70% 30%;
+    background-color: #cbd5e1;
 }
 
 .grid-title {
@@ -50,35 +51,29 @@
 }
 
 .card {
-    background-color: blue;
+    background-color: #f8fafc;
     border-radius: 10px;
 }
 
-.trending {
-    display: grid;
-    grid-template-rows: 50% 50%;
-}
-
-.trending-title {
+#trending-title {
     font-size: 20px;
     margin: 20px;
 }
-
-.trending-card {
-    background-color: blue;
-    border-radius: 10px;
-    margin: 20px;
-    height: 40vh;
-}
-
-.announce-card {
-    background-color: blue;
-    border-radius: 10px;
-    margin: 20px;
-    height: 30vh;
-}
-
-.announce-title {
+ #announcements-title {
     font-size: 20px;
     margin: 20px;
-}
+ }
+
+ .trend-card {
+    background-color: #f8fafc;
+    border-radius: 10px;
+    margin: 20px;
+    height: 35vh;
+ }
+
+ .announce-card {
+    background-color: #f8fafc;
+    border-radius: 10px;
+    margin: 20px;
+    height: 27vh;
+ }
