@@ -66,6 +66,11 @@ h2 {
     border-left: 2px solid #a5b4fc;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: rgba(165, 180, 252, 0.5) 0px 0px 8px 4px;
 }
 
 #trending-title {
@@ -94,5 +99,5 @@ h2 {
     margin: 20px;
     height: 27vh;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-
  }
+
